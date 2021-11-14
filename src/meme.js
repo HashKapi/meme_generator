@@ -48,10 +48,6 @@ const Meme = () => {
     return ( 
         <main>
             <div className="container-fluid">
-                {/* <div className="row">
-                    <p className='col mx-auto'>TOP TEXT</p>
-                    <p className='col mx-auto'>BOTTOM TEXT</p>
-                </div> */}
                 <form>
                     <div className="row">
                         <input 
@@ -62,7 +58,6 @@ const Meme = () => {
                             value={meme.topText}
                             onChange={handleChange}
                         />
-                        {/* <p className='col'></p> */}
                         <input 
                             type="text" 
                             placeholder='Bottom Text'
